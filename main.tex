@@ -1,0 +1,96 @@
+% !TEX program = xelatex
+% --------------------
+% Packages
+% --------------------
+\documentclass[11pt,a4paper]{article}
+\usepackage{CUHKReport}
+\linespread{1.5}
+\setlength{\parindent}{0pt}
+
+% -----------------------
+% Begin document
+% -----------------------
+
+\begin{document}
+
+% Generate the Cover Page Single
+\cover
+\thispagestyle{empty}
+\newpage
+
+% Generate the Content Page Single
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+\section{Introduction}
+
+Type in your introduction here.
+
+\newpage
+
+\section{Data Resources}
+
+Here come the websites we collect data:
+
+\textbf{CSMAR}
+
+\textit{WRDS}
+
+\underline{Bloomberg}
+
+Related Variables
+
+\begin{itemize}
+    \item XXX
+    \item XXX
+    \item XXX
+\end{itemize}
+
+\begin{enumerate}
+    \item XXX
+    \item XXX
+    \item XXX
+\end{enumerate}
+
+Model: $\int_a^b f(x)dx = F(b)-F(a)$
+
+Further Model：
+\begin{equation}
+    \int_a^b f(x)dx = F(b)-F(a)
+\end{equation}
+
+
+Regression Results：
+\begin{tabular}{|c|c|}% 通过添加 | 来表示是否需要绘制竖线
+\hline  % 在表格最上方绘制横线
+(1,1)&(1,2)\\
+\hline  %在第一行和第二行之间绘制横线
+(2,1)&(2,2)\\
+\hline % 在表格最下方绘制横线
+\end{tabular}
+
+\subsection{subsection}
+
+Here type in your subsection contents.
+
+\subsubsection{subsubsection}
+
+Here type in your subsubsection contents.
+
+\newpage
+
+\section{Conclusion}
+
+Your research results and conclusion.
+
+\
+
+\newpage
+
+\section*{Reference}
+
+List all the references in the thesis.
+
+
+\end{document}
